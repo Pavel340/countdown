@@ -1,0 +1,36 @@
+<style>
+
+.countdown {
+  position: relative;
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.countdown__numbers {
+  animation: 10s countdown steps(10);
+}
+
+@keyframes countdown {
+  from {margin-top: -470px;}
+  to {margin-top: 0px;}
+}
+
+</style>
+
+<div class="countdown">
+  <div class="countdown__numbers">
+    <div class="countdown__number">0</div>
+    <div class="countdown__number">1</div>
+    <div class="countdown__number">2</div>
+    <div class="countdown__number">3</div>
+    <div class="countdown__number">4</div>
+    <div class="countdown__number">5</div>
+    <div class="countdown__number">6</div>
+    <div class="countdown__number">7</div>
+    <div class="countdown__number">8</div>
+    <div class="countdown__number">9</div>
+    <div class="countdown__number">10</div>
+  </div>
+</div>
